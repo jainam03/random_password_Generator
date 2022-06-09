@@ -1,0 +1,1 @@
+# A solo project for Scrimba's JS course
