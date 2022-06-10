@@ -28,7 +28,7 @@ function generate(length) {
     }
     //return result
 
-    fieldEl.textContent = "Yor passwords are: " + result + " and " + result2
+    fieldEl.textContent = "Your passwords are: " + result + " and " + result2
 
     generate(15)
 }
