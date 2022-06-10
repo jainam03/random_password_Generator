@@ -4,7 +4,7 @@ body {
     padding-top: 80px;
     padding-left: 80px;
 
-    font-family: 'Trebuchet MS';
+    font-family: 'Times New Roman','Trebuchet MS';
     font-style: italic;
 }
 
@@ -63,11 +63,16 @@ body {
 }
 
 #button:active {
-    transition: 0.6s;
-    transform: translateY(10px);
+    transition: 0.4s;
+    transform: translateY(7px);
 }
 
 .pwd {
     color: white;
     font-size: x-large;
+}
+
+#field {
+    margin-left:110px ;
+    color: white;
 }

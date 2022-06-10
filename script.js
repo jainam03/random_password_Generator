@@ -5,10 +5,14 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
 let buttonEl = document.getElementById("button")
 let fieldEl = document.getElementById("field")
 
-buttonEl.addEventListener("click", function () {
-    let randomPass1 = 15 + (Math.floor(Math.random() * characters.length))
+function generate() {
+    for (let i = 0; i < characters.length; i++) {
+        let randomPass1 = (Math.floor(Math.random() * 91))
 
-    let randomPass2 = 15 + (Math.floor(Math.random() * characters.length))
+        let randomPass2 = (Math.floor(Math.random() * 91))
 
-    fieldEl.textContent = randomPass1
-})
+        fieldEl.textContent = "Your passwords are: " + characters[randomPass1] + " and " + characters[randomPass2]
+
+        generate()
+    }
+}
