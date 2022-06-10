@@ -4,7 +4,7 @@ body {
     padding-top: 80px;
     padding-left: 80px;
 
-    font-family: 'Times New Roman','Trebuchet MS';
+    font-family: 'Times New Roman', 'Trebuchet MS';
     font-style: italic;
 }
 
@@ -45,17 +45,19 @@ body {
 }
 
 #button {
-    margin-left: 110px;
+    margin-left: 87px;
     padding: auto;
 
-    width: 190px;
+    width: 250px;
     height: 45px;
 
     border-radius: 12px;
 
     background-color: green;
     color: white;
-    font-size: large;
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Times New Roman', 'Trebuchet MS';
 
     border: none;
 
@@ -73,6 +75,9 @@ body {
 }
 
 #field {
-    margin-left:110px ;
+    margin-left: auto;
     color: white;
+
+    font-family: 'Times New Roman', 'Trebuchet MS';
+    font-size: x-large;
 }
