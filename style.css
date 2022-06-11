@@ -4,15 +4,15 @@ body {
     padding-top: 80px;
     padding-left: 80px;
 
-    font-family: 'Times New Roman', 'Trebuchet MS';
+    font-family: 'Segoe UI', 'Consolas';
     font-style: italic;
 }
 
 .box1 {
     text-align: left;
 
-    width: 470px;
-    height: 540px;
+    width: 490px;
+    height: 570px;
     border: 1px solid white;
     border-radius: 30px;
     box-shadow: 0 0 22px rgb(225, 238, 105);
@@ -24,16 +24,18 @@ body {
     padding-right: 45px;
 }
 
-.tag2 {
-    color: green;
-
-    font-weight: bolder;
-}
-
 .tag1 {
     color: white;
 
     font-weight: bolder;
+    font-size: 30px;
+}
+
+.tag2 {
+    color: rgb(79, 176, 79);
+
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 .tag3 {
@@ -46,19 +48,24 @@ body {
 }
 
 #button {
-    margin-left: 87px;
-    padding: auto;
+    margin-left: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 
-    width: 250px;
-    height: 45px;
+    width: 270px;
+    height: 65px;
 
     border-radius: 12px;
 
-    background-color: green;
+    background-color: rgb(58, 181, 58);
     color: white;
-    font-size: x-large;
+
+    font-size: 25px;
     font-style: italic;
-    font-family: 'Times New Roman', 'Trebuchet MS';
+    font-family: 'Segoe UI', 'Consolas';
+    font-weight: bolder;
 
     border: none;
 
@@ -70,6 +77,10 @@ body {
     transform: translateY(7px);
 }
 
+#line {
+    opacity: .3;
+}
+
 .pwd {
     color: white;
     font-size: x-large;
@@ -79,6 +90,7 @@ body {
     margin-left: auto;
     color: white;
 
-    font-family: 'Times New Roman', 'Trebuchet MS';
-    font-size: x-large;
+    font-family: 'Segoe UI', 'Consolas';
+    font-size: 25px;
+    font-weight: bolder;
 }
