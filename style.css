@@ -5,11 +5,17 @@
 body {
     background-color: #273549;
     /*text-align: center;*/
-    padding-top: 80px;
+
     padding-left: 80px;
 
     font-family: 'Segoe UI', 'Consolas';
     font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
 }
 
 .box1 {
