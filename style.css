@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #273549;
     /*text-align: center;*/
@@ -13,9 +17,9 @@ body {
 
     width: 490px;
     height: 570px;
-    border: 1px solid white;
+    border: 1px double whitesmoke;
     border-radius: 30px;
-    box-shadow: 0 0 22px rgb(225, 238, 105);
+    box-shadow: 0 0 30px rgb(225, 238, 105);
 
     margin: auto;
     padding-top: 25px;
@@ -48,7 +52,7 @@ body {
 }
 
 #button {
-    margin-left: 95px;
+    margin-left: 65px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
