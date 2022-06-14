@@ -92,7 +92,7 @@ h1 {
 }
 
 #button:active {
-    transition: 0.4s;
+    transition: 0.6s;
     transform: translateY(7px);
 }
 
@@ -106,6 +106,7 @@ h1 {
 }
 
 #field {
+    word-spacing: 5px;
     margin-left: auto;
     color: rgb(58, 181, 58);
 
