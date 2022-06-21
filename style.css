@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     word-spacing: 2px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -11,6 +13,8 @@ body {
 
     font-family: 'Segoe UI', 'Consolas';
     font-style: italic;
+
+    box-sizing: auto;
 }
 
 h1 {
@@ -30,7 +34,7 @@ h1 {
 
     margin: auto;
     padding-top: 25px;
-    padding-bottom: auto;
+    padding-bottom: 25px;
     padding-left: 45px;
     padding-right: 45px;
 }
