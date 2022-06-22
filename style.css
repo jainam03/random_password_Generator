@@ -17,7 +17,7 @@ body {
     box-sizing: auto;
 }
 
-p {
+h1 {
     text-align: center;
     color: white;
     font-size: 20px;
@@ -29,7 +29,7 @@ p {
     text-align: left;
 
     width: 510px;
-    height: 600px;
+    height: 570px;
     border: none;
     border-radius: 30px;
     box-shadow: 1px 1px 22px white;
@@ -40,7 +40,7 @@ p {
     margin-bottom: auto;
 
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -134,6 +134,6 @@ p {
     text-align: center;
 
     font-size: larger;
-    /*font-weight: bolder;*/
+    font-weight: bolder;
     word-spacing: 3px;
 }
