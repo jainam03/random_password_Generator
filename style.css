@@ -81,11 +81,10 @@ h1 {
     height: 65px;
 
     border-radius: 12px;
-    border: none;
 
     background-color: rgb(79, 176, 79);
     color: white;
-    box-shadow: 0 0 18px white;
+    box-shadow: 1px 1px 17px white;
 
     font-size: 25px;
     font-style: italic;
@@ -101,7 +100,7 @@ h1 {
     transition: 1s;
     color: black;
     background-color: rgb(225, 238, 105);
-    box-shadow: 0 0 32px rgb(155, 187, 155);
+    box-shadow: 0 0 32px rgb(79, 176, 79);
 }
 
 #button:active {
@@ -126,4 +125,13 @@ h1 {
     font-family: 'Segoe UI', 'Consolas';
     font-size: 20px;
     font-weight: bolder;
+}
+
+#inst {
+    color: white;
+    text-align: center;
+
+    font-size: larger;
+    font-weight: bolder;
+    word-spacing: 3px;
 }
