@@ -28,9 +28,9 @@ h1 {
 
     width: 510px;
     height: 600px;
-    border: 1px groove whitesmoke;
+    border: none;
     border-radius: 30px;
-    box-shadow: 0 0 12px rgb(225, 238, 105);
+    box-shadow: 1px 1px 22px white;
 
     margin-left: auto;
     margin-right: auto;
@@ -81,10 +81,11 @@ h1 {
     height: 65px;
 
     border-radius: 12px;
+    border: none;
 
     background-color: rgb(79, 176, 79);
     color: white;
-    box-shadow: 0 0 12px rgb(225, 238, 105);
+    box-shadow: 0 0 18px white;
 
     font-size: 25px;
     font-style: italic;
@@ -100,7 +101,7 @@ h1 {
     transition: 1s;
     color: black;
     background-color: rgb(225, 238, 105);
-    box-shadow: 0 0 32px rgb(79, 176, 79);
+    box-shadow: 0 0 32px rgb(155, 187, 155);
 }
 
 #button:active {
