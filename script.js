@@ -4,6 +4,7 @@ let buttonEl = document.getElementById("button")
 let fieldEl = document.getElementById("field")
 let fieldEl2 = document.getElementById("field2")
 
+//below is incorrect function, but //kept for reference purpose
 /*function generate() {
     for (let i = 0; i < characters.length; i++) {
         let randomPass1 = (Math.floor(Math.random() * 91))
