@@ -136,3 +136,19 @@ h1 {
     font-weight: bolder;
     word-spacing: 3px;
 }
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git-link {
+
+    color: white;
+
+    font-family: 'Consolas', sans-serif;
+    font-size: larger;
+
+    transition: 0.3s;
+}
