@@ -34,7 +34,7 @@ h1 {
     height: 580px;
     border-radius: 30px;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.6);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.16);
     backdrop-filter: blur(25px);
 
     margin: auto;
