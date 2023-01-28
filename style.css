@@ -135,7 +135,7 @@ h1 {
     word-spacing: 3px;
 }
 
-.link {
+/* .link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,4 +149,21 @@ h1 {
     font-size: larger;
 
     transition: 0.3s;
+} */
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+}
+
+#github-icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+
+    transition: 0.4s;
+}
+
+#github-icon:active {
+    scale: 0.97px;
 }
